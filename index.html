@@ -37,10 +37,10 @@
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand"><a href="#top" >Ruoyan Website</a></li>
-            <li><a href="#top" >Home</a></li>
-            <li><a href="#services" >Products</a></li>
-            <li><a href="#contact" >Contact</a></li>
+            <li class="sidebar-brand"><a href="#top">Ruoyan Website</a></li>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#services">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -48,7 +48,7 @@
     <header id="top" class="header">
         <div class="bg-canvas"><canvas id='canvas'></canvas></div>
         <div class="text-vertical-center">
-        	<h1 style="margin-right: 300px;">I can accept failure. </h1>
+            <h1 style="margin-right: 300px;">I can accept failure. </h1>
             <h1 style="margin-left: 200px;">But I can't accept not trying.</h1>
             <h3 class="subTitle">—— Michael Jordan</h3>
             <br>
@@ -65,66 +65,103 @@
                     <h2 class="text-center">Projects</h2>
                     <hr class="small dark">
                     <!-- <h3 class="text-center">Web Applications</h3> -->
+
+                    <!--GameHolic-->
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="service-item">
                                 <div class="item-icon col-md-3">
                                     <span class="fa-stack fa-4x">
-                                    <i class="fa fa-list-alt fa-stack-1x "></i>
+                                        <i class="fa fa-list-alt fa-stack-1x "></i>
                                     </span>
                                 </div>
                                 <div class="item-content col-md-9">
                                     <h3>
                                         <a href="https://game-holic-590ee.firebaseapp.com" target="_blank">GameHolic</a>
                                     </h3>
-                                    <p class="text-left">GameHolic is a full-stack web application where users can search for games and view their detailed information. Users can log in to the site and add games to the collection lists of their own accounts, as well as edit the games of those lists. The project is using React and Redux dealing with data and interaction, deploying on Google Cloud Platform.</p>
+                                    <p class="text-left">GameHolic is a full-stack web application where users can
+                                        search for games and view their detailed information. Users can log in to the
+                                        site and add games to the collection lists of their own accounts, as well as
+                                        edit the games of those lists. The project is using React and Redux dealing with
+                                        data and interaction, deploying on Google Cloud Platform.</p>
                                 </div>
                             </div>
                         </div>
+                        
+                        <!-- Search Engine -->
                         <div class="col-md-6 col-sm-6">
                             <div class="service-item">
                                 <div class="item-icon col-md-3">
                                     <span class="fa-stack fa-4x">
-                                    <i class="fa fa-bars fa-stack-1x "></i>
+                                        <i class="fa  fa-search fa-stack-1x "></i>
                                     </span>
                                 </div>
                                 <div class="item-content col-md-9">
                                     <h3>
-                                        <a href="https://ruoyanmeng.github.io/HIT5_QA_Chat_Bot/" target="_blank">HIT5 Q&A Chat Bot</a>
+                                        <a href="https://github.com/RuoyanMeng/Search-Engine" target="_blank">Search Engine</a>
                                     </h3>
-        
-                                    <p class="text-left">HIT5 Q&A Bot is a local host question and answers bot, the questions and answers crawled from Reddit are pre-indexing into Elasticsearch cluster, communicate with the front end by REST API. Additionally, this bot implements the Word2Vec model to run the synonym search. </p>
+                                    <p class="text-left">A search engine builds based on the ”DavisWiki” dataset, with efficient text indexing, boolean and vector space retrieval models, ranking algorithms, as well as evaluation.  It also implements relevance feedback to improve the query representation; Perform tolerant retrieval with wildcard queries and isolated spelling correction.
+                                    </p>
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
-                    <!-- /.row (nested) -->
+
+
+
 
                     <div class="row" style="margin-top: 10px">
+                        <!--HIT5 Q&A Chat Bot-->
                         <div class="col-md-6 col-sm-6">
                             <div class="service-item">
                                 <div class="item-icon col-md-3">
                                     <span class="fa-stack fa-4x">
-                                    <i class="fa  fa-cart-arrow-down fa-stack-1x "></i>
+                                        <i class="fa fa-bars fa-stack-1x "></i>
                                     </span>
                                 </div>
-
                                 <div class="item-content col-md-9">
                                     <h3>
-                                        <a href="https://ruoyanmeng.github.io/DinnerOrder_React/" target="_blank">Dinner Planner</a>
+                                        <a href="https://ruoyanmeng.github.io/HIT5_QA_Chat_Bot/" target="_blank">HIT5
+                                            Q&A Chat Bot</a>
                                     </h3>
-                                    <p class="text-left">Dinner Planner is a pure front end React web APP. Users can operating searching, browser food details, adding cart, modify dinner people, check to the bill, etc. functions</p>
+                                    <p class="text-left">HIT5 Q&A Bot is a local host question and answers bot, the
+                                        questions and answers crawled from Reddit are pre-indexing into Elasticsearch
+                                        cluster, communicate with the front end by REST API. Additionally, this bot
+                                        implements the Word2Vec model to run the synonym search. </p>
                                 </div>
                             </div>
                         </div>
-                     
+
+                        <!-- Dinner Planner -->
+                        <div class="col-md-6 col-sm-6">
+                            <div class="service-item">
+                                <div class="item-icon col-md-3">
+                                    <span class="fa-stack fa-4x">
+                                        <i class="fa fa-cart-arrow-down fa-stack-1x"></i>
+                                    </span>
+                                </div>
+                                <div class="item-content col-md-9">
+                                    <h3>
+                                        <a href="https://ruoyanmeng.github.io/DinnerOrder_React/" target="_blank">Dinner Planner</a>                                    </h3>
+                                    <p class="text-left">Dinner Planner is a pure front end React web APP. Users can
+                                        operating searching, browser food details, adding cart, modify dinner people,
+                                        check to the bill, etc. functions</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    
+
                 </div>
-                <!-- /.col-lg-10 -->
+
+
+
+
             </div>
-            <!-- /.row -->
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
         </div>
         <div class="bg-icon"></div>
         <!-- /.container -->
@@ -140,11 +177,9 @@
                         <img src="image/nemo_seagulls.jpg" alt="Avatar">
                     </a>
                 </div>
-                
+
                 <h2><strong>Ruoyan Meng</strong></h2>
-                <a class="github-button" href="https://github.com/RuoyanMeng" 
-                    data-size="large" 
-                    data-show-count="true" 
+                <a class="github-button" href="https://github.com/RuoyanMeng" data-size="large" data-show-count="true"
                     aria-label="Follow @Ruoyan Meng on GitHub">Follow @Ruoyan Meng</a>
 
                 <hr class="small">
@@ -152,17 +187,19 @@
                 <p>Espoo, Finland</p>
                 <ul class="list-unstyled">
                     <li class="row-email">
-                        <i class="fa fa-envelope-o fa-fw"></i> 
-                        <a href="mailto:ruoyan.meng@aalto.fi">ruoyan.meng@aalto.fi</a> 
+                        <i class="fa fa-envelope-o fa-fw"></i>
+                        <a href="mailto:ruoyan.meng@aalto.fi">ruoyan.meng@aalto.fi</a>
                     </li>
                 </ul>
                 <br>
                 <ul class="list-inline">
                     <li>
-                        <a href="https://github.com/RuoyanMeng" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        <a href="https://github.com/RuoyanMeng" target="_blank"><i
+                                class="fa fa-github fa-fw fa-3x"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/ruoyan-meng-3328a1151/" target="_blank"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        <a href="https://www.linkedin.com/in/ruoyan-meng-3328a1151/" target="_blank"><i
+                                class="fa fa-linkedin fa-fw fa-3x"></i></a>
                     </li>
                 </ul>
 
@@ -175,17 +212,18 @@
         <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
 
-<!-- jQuery -->
-<script type="text/javascript" src="lib/jquery.min.js"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script type="text/javascript" src="lib/bootstrap/3.3.7/bootstrap.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="lib/bootstrap/3.3.7/bootstrap.min.js"></script>
 
-<!-- Custom Theme JavaScript -->
-<script type="text/javascript" src="js/index.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script type="text/javascript" src="js/index.js"></script>
 
-<script type="text/javascript" src="js/count.js" ></script>
-<script async defer src="lib/github-buttons/buttons.min.js"></script>
+    <script type="text/javascript" src="js/count.js"></script>
+    <script async defer src="lib/github-buttons/buttons.min.js"></script>
 
 </body>
+
 </html>
